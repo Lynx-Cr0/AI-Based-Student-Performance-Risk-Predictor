@@ -1,0 +1,29 @@
+{
+  "baseline_logistic_regression": {
+    "accuracy": 0.692,
+    "weighted_precision": 0.695761925417442,
+    "weighted_recall": 0.692,
+    "weighted_f1": 0.6933465055998435,
+    "macro_precision": 0.6971415421436312,
+    "macro_recall": 0.6930481283422459,
+    "macro_f1": 0.6945586955172715
+  },
+  "ann": {
+    "accuracy": 0.6873333333333334,
+    "weighted_precision": 0.6855939956710861,
+    "weighted_recall": 0.6873333333333334,
+    "weighted_f1": 0.686065331874917,
+    "macro_precision": 0.6868552608299935,
+    "macro_recall": 0.6887898593780947,
+    "macro_f1": 0.6874216197859236
+  },
+  "class_names": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "test_size": 3000,
+  "train_size": 9600,
+  "validation_size": 2400,
+  "epochs_trained": 25
+}
